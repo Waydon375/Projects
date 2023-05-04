@@ -1,0 +1,44 @@
+ 
+    <html>
+        <head>
+            <link rel="stylesheet" href="./index.css">
+        </head>
+                <body>
+                    <div class="container">
+                        <h1>Row Counter</h1>
+                        <h2 id="count-el">0</h2>
+                        <button id="increment-btn" onclick="increment()">
+                             INCREMENT
+                        </button>
+                        
+                        <button id="save-btn" onclick="save()">
+                            SAVE
+                        </button>
+                        <p id="save-el">previous entries: </p>
+                    </div>
+                    
+                    <script src="index.js">
+                        let saveEl = document.getElementById("save-el")
+                        let countEl = document.getElementById("count-el")
+                        console.log(countEl)
+                        console.log(saveEl)
+                        let count = 0
+    function increment(){
+        count += 1
+        countEl.innerHTML = count
+        console.log(count)
+    }
+    
+    function save(){
+        let countStr = count + " - "
+        saveEl.innerHTML += countStr
+        console.log(count)
+    
+    }
+                    </script>
+    
+                </body>
+    
+    </html>
+ 
+   
