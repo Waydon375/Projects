@@ -48,9 +48,9 @@ import ReactDOM from "react-dom"
 function Header(){
   return(
      <header>
-      <nav>
-      <img src="Image/react7473.logowik.com.webp.png(3).webp" alt="" width="90px" height="60px" />
-      <ul>
+      <nav className="nav">
+      <img src="Image/react7473.logowik.com.webp.png(3).webp" alt="" className="logo" />
+      <ul className="nav-items">
         <li>About</li>
         <li>Projects</li>
         <li>Contact</li>
@@ -62,16 +62,16 @@ function Header(){
 }
 function Footer(){
   return(
-    <footer>
+    <footer className="right-list">
         <small>© 2023 Saal development. All rights reserved.</small>
       </footer>
   )
 }
 function MainContent(){
   return(
-    <div>
-      <h1>Why i'm excited to learn React.</h1>
-      <ol>
+    <div className="maincontent">
+      <h1>Why i'm excited to learn <span>React</span></h1>
+      <ol className="main-list">
         <li>it is fun to learn</li>
         <li>it will improve my coding</li>
         <li>it will give me a better understanding of JavaScript</li>
