@@ -45,22 +45,19 @@ import ReactDOM from "react-dom"
   )
 }*/
 
-function Page(){
-  return(
-    <div>
-      <Header/>
-      <MainContent/>
-      <Footer/>
-    </div>
-  )
-}
 function Header(){
   return(
      <header>
       <nav>
-      <img src="Image/logo-react-icon.png" alt="" width="40px" height="40px" />
+      <img src="Image/react7473.logowik.com.webp.png(3).webp" alt="" width="90px" height="60px" />
+      <ul>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
        </nav>
        </header>
+       
   )
 }
 function Footer(){
@@ -79,6 +76,15 @@ function MainContent(){
         <li>it will improve my coding</li>
         <li>it will give me a better understanding of JavaScript</li>
       </ol>
+    </div>
+  )
+}
+function Page(){
+  return(
+    <div>
+      <Header/>
+      <MainContent/>
+      <Footer/>
     </div>
   )
 }
