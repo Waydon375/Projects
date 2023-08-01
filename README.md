@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Waydon Saal</h1>
 <h3 align="center">A passionate Front End developer from South Africa</h3>
+
 ![Gif](Assets/when-the-coding-when-the.gif)
 
 
