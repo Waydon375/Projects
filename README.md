@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Waydon Saal</h1>
-<h3 align="center">A passionate Full stack developer from South Africa</h3>
+<h3 align="center">A passionate Front End developer from South Africa</h3>
 <a align="right"><img src="https://za.pinterest.com/pin/567523990538356835" alt="coding" width="40px" height="40px"/></a>
 
 
