@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Waydon Saal</h1>
 <h3 align="center">A passionate Front End developer from South Africa</h3>
-![Gif](Assets/ download(1).jpeg)
+![Gif](Assets/when-the-coding-when-the.gif)
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=waydon375&label=Profile%20views&color=0e75b6&style=flat" alt="waydon375" /> </p>
